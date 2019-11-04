@@ -14,11 +14,37 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+
+.content{
+	width: 800px;
+	margin: 0 auto;
+	text-align:justify;
+	display: block;
+	min-height: 300px;
+	max-height: 1000px;
+}
+
+.content p{
+	text-align: justify;
+	font-family: chaparral-pro, serif;
+	font-weight: 400;
+	display: inline;
+	text-align: left;
+	font-style: normal;
+}
+
+.content b{
+	font-family: rift, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+	font-style: normal;
+}
 /* Container */
 .container {
 	width: 100%;
 	display: block;
-	height: 450px;
+	max-height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -29,7 +55,7 @@ header {
 	text-align: center;
 	padding-top:20px;
 	padding-bottom: 20px;
-	margin: 50px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	font-family: cooper-black-std, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -40,7 +66,6 @@ header {
 	background-color: #5bdab8;
 }
 
-
 .menu{
 	align-content: center;
 	position:relative;
@@ -50,6 +75,21 @@ header {
 	height: 50px;
 	text-align: center;
 	list-style: none;
+}
+
+td{
+	margin-left:-1px;
+	max-width:500px;
+}
+
+td img{
+	width:325px;
+}
+
+iframe{
+	width:800px;
+	height:550px;
+	text-align: center;
 }
 
 .menu a,

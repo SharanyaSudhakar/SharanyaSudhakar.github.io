@@ -52,7 +52,7 @@ function putcontent(i)
 {
 	var content = new Array(8);
 	content[0]= "My Portfolio Pieces";
-	content[1] = "Shaders are written for Unity and created using the shader-graph for Unity 2018 & above versions and coded as Surface Shaders using HLSL for older versions.";
+	content[1] = "Shaders are written for Unity and created using the shader-graph for Unity 2018 & above versions and coded as Surface Shaders using <i>Cg</i> for older versions.";
 	content[2] = "Graphics<br>";
 	content[3] = "VR";
 	content[4] = "Lighting brings in the glamour or the prevailing mood of shot.<br> Here are my efforts to set the scene and bring the emotion home.";
