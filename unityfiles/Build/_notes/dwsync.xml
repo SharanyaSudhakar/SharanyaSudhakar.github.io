@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="UnityLoader.js" server="vergil.u.washington.edu" local="131889340840000000" remote="132172339890000000" Dst="2" />
-<file name="unityfiles.wasm.framework.unityweb" server="vergil.u.washington.edu" local="132168436022952094" remote="132172339900000000" Dst="2" />
-<file name="unityfiles.wasm.code.unityweb" server="vergil.u.washington.edu" local="132168436022084415" remote="132172339950000000" Dst="2" />
-<file name="unityfiles.json" server="vergil.u.washington.edu" local="132168435999358948" remote="132172339950000000" Dst="2" />
-<file name="unityfiles.data.unityweb" server="vergil.u.washington.edu" local="132168436006230573" remote="132172339970000000" Dst="2" />
+<file name="unityfiles.data.unityweb" server="vergil.u.washington.edu" local="132172375970000000" remote="132172375970000000" Dst="1" />
+<file name="unityfiles.json" server="vergil.u.washington.edu" local="132172375950000000" remote="132172375950000000" Dst="1" />
+<file name="unityfiles.wasm.code.unityweb" server="vergil.u.washington.edu" local="132172375950000000" remote="132172375950000000" Dst="1" />
+<file name="unityfiles.wasm.framework.unityweb" server="vergil.u.washington.edu" local="132172375900000000" remote="132172375900000000" Dst="1" />
+<file name="UnityLoader.js" server="vergil.u.washington.edu" local="132172375890000000" remote="132172375890000000" Dst="1" />
 </dwsync>

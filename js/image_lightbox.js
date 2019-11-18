@@ -39,17 +39,35 @@ function showSlides(n) {
 }
 
 function expandBlockClose(){
-	var expandImg = document.getElementById("expandedImg");
-	expandImg.parentElement.style.display = "none";
+	document.getElementById("expandblock").style.display = "none";
 }
 
 function expandBlock(image){
-  var expandImg = document.getElementById("expandedImg");
-	var imgs=["images/honeylight-concept_web.jpg",
-			 "images/stumpywell_web.jpg",
+  	var expandImg = document.getElementById("expandedImg");
+	var expandtxt = document.getElementById("expandedText");
+	var v1 = document.getElementById("video1");
+	var v2 = document.getElementById("video2");
+	var v3 = document.getElementById("video3");
+	var content = new Array(3);
+	content[0]= "The dripping honey is shader effect applied on a flat plane.";
+	content[1] = "The floating Globules in this video are scripted on the fly and their effects are applied with a shader.<br>The bobbing effect on the shader is using a sine cruve and the ascension is elliptical.";
+	content[2] = "The transition between the two textures has been added using a shader and scripted to include the particle effect. The blighted object slowly sheds its previous skin.";
+	var imgs=["images/honeylight-concept.jpg",
+			 "images/stympy-concept.jpg",
 			 "images/blight_web.jpg"];
   // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs[image-1];
-  expandImg.parentElement.style.display = "block";
+	image--;
+  expandImg.src = imgs[image];
+  expandtxt.innerHTML = content[image];
+	v1.style.display = "none";
+	v2.style.display = "none";
+	v3.style.display = "none";
+	if(image == 0)
+		v1.style.display = "block";
+	if(image == 1)
+		v2.style.display = "block";
+	if(image == 2)
+		v3.style.display = "block";
+  document.getElementById("expandblock").style.display = "block";
 
 }

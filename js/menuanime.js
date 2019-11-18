@@ -51,15 +51,13 @@ filterSelection("all")
 function putcontent(i)
 {
 	var content = new Array(8);
-	content[0]= "My Portfolio Pieces";
+	content[0]= "All of them contain programming of one kind or the other, except for the art tab. <br>Primary languages used <b>Cg, C#, C++ and javascript.</b>";
 	content[1] = "Shaders are written for Unity and created using the shader-graph for Unity 2018 & above versions and coded as Surface Shaders using <i>Cg</i> for older versions.";
 	content[2] = "Graphics<br>";
-	content[3] = "VR";
-	content[4] = "Lighting brings in the glamour or the prevailing mood of shot.<br> Here are my efforts to set the scene and bring the emotion home.";
+	content[3] = "Virtual Reality Project: <i>An underwater experiance with 3 Orcas.</i><br>The experiance plays out as a game, with each orca teaching you something about being an orca.<br><br><b>My Contributiions</b><br>1. Worked in conceptualizing and setting up the Granny experiance.<br>2.Environment setup, lighting, and programming the interactions within the experiance.<br>3. Worked with the menu setup and intergration of the free swim components.<br>4. Researched, tested and incorporated the fins on the user to catch and eat fish and to simulate the fin swim motion using Unity's lastest Rigging and Animate packages.";
+	content[4] = "Game Engine Development: Class projects and Final Game Implemented using HTML, Javascript and WebGL.";
 	content[5] = "Mediums used: Acrylic, Pencil, Charcoal and Pastels<br>";
 	content[6] = "mini movie";
-	content[7] = "in progress";
+	content[7] = "Ongoing graphics and shader works, concepts, ideas and projects in the works.";
 	document.getElementById("pg").innerHTML = content[i];
-	console.log(content[i]);
 }
-putcontent(0)
