@@ -85,9 +85,9 @@
     float:left;
 	display: none;
     margin: 10px 0px 5px 20px;
-	padding: 15px;
-    width:950px;
-    max-height: 500px;
+	padding: 10px;
+    width:920px;
+    max-height: 650px;
     background-color:#E4E4E4;
     text-align: left;
     cursor: pointer;
@@ -103,7 +103,7 @@
 }
 
 .expand_block .leftfloat{
-	width: 420px;
+	width: 400px;
 	float: left;
 	margin: 0 auto;
 	padding: 10px;
@@ -125,7 +125,7 @@
     position: relative;
     display: block;
 	text-align: center;
-    min-height: 100%;
+    min-height: 200px;
     max-width: 100%;
     opacity: 0.8;
 	background: black;
