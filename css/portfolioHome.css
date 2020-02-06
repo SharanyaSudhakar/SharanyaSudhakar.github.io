@@ -2,6 +2,7 @@
 	margin: 5px;
   position: relative;
 }
+
 .dropdown-content a,
 .dropdown-content button{
 	font-family: Rift, sans-serif;
@@ -48,6 +49,26 @@
 	font-weight: 300;
 }
 
+.pagecaption p{
+	width: 60%;
+	height: auto;
+}
+
+.pagecaption img{
+	width:650px;
+	height: 400px;
+	align-content: center;
+}
+
+.pagecaption h3,.pagecaption h3 a {
+  font-family: moret;
+  font-size: 20px;
+  font-weight: bold;
+  color: #D3A508;
+  margin: 0;
+  padding: 10px 0;
+}
+
 .grid {
     position: relative;
     margin: 0 auto;
@@ -80,54 +101,13 @@
     cursor: pointer;
 }
 
-.grid .expand_block {
-    position: relative;
-    float:left;
-	display: none;
-    margin: 10px 0px 5px 20px;
-	padding: 10px;
-    width:920px;
-    max-height: 650px;
-    background-color:#E4E4E4;
-    text-align: left;
-    cursor: pointer;
-}
-
-.expand_block img{
-	max-width:400px;
-    max-height: 350px;
-	margin: 0 auto;
-	display: block;
-	align: center;
-	position: relative;
-}
-
-.expand_block .leftfloat{
-	width: 400px;
-	float: left;
-	margin: 0 auto;
-	padding: 10px;
-	position: relative;
-	display: inline;
-	height: auto;
-}
-
-.expand_block p{
-	text-align: justify;
-	position: relative;
-	width:360px;
-	font-family: chaparral-pro;
-	font-size: 20px;
-	padding: 0px 15px;
-}
-
 .grid figure img {
     position: relative;
     display: block;
 	text-align: center;
     min-height: 200px;
     max-width: 100%;
-    opacity: 0.8;
+    opacity: 1;
 	background: black;
 }
 

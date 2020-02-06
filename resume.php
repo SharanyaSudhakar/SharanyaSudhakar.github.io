@@ -17,11 +17,10 @@
 <link rel="stylesheet" href="https://use.typekit.net/yvg7yal.css">
 </head>
 <body>
-<header class="tk-hobeaux">Sharanya Sudhakar</header>
+<?php include 'php/mainheader.php';?>
 <!-- main container-->
-	<div class="container">
-		<div class="menu" align="center"> <a href="index.html" class="button">Home</a> <a href="portfolio.html" class="button">Portfolio</a> <a href="about.html" class="button">About</a> <a href="resume.html" class="button">Resume</a></div>
-	<div class="content"><iframe src="pdfs/Sharanya Sudhakar-Resume2019.pdf">link to resume: <a href="pdfs/SharanyaSudhakar_Jan20_WA.pdf">click here</a>
+	<?php include 'php/mainmenu.php';?>
+	<div class="content"><iframe src="pdfs/SharanyaSudhakar_Jan20_WA.pdf">link to resume: <a href="pdfs/SharanyaSudhakar_Jan20_WA.pdf">click here</a>
     </iframe>
 		<!-- end content --> </div>
 <!-- end main container--></div><br>

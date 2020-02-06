@@ -1,0 +1,63 @@
+h4, h3, h3 a {
+  font-family: moret;
+  font-size: 20px;
+  font-weight: bold;
+  color: #D3A508;
+  margin: 0;
+  padding: 10px 0;
+}
+
+h2{
+	 font-family: moret;
+  font-size: 28px;
+  font-weight: bold;
+  color: #9C7204;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.columnv3 {
+  float: left;
+	align-content: center;
+}
+
+.leftcolmn{
+	width: 58%;
+	margin: 0 15px 0 0;
+}
+
+.rightcolum{
+	align-content: center;
+	width: 40%;
+}
+
+.halfcolumn{
+	width: 50%;
+}
+
+.columnv3 iframe{
+	max-width: 320px;
+	max-height: 240px;
+	padding:5px;
+}
+
+/* Clear floats after the columns */
+.rowv3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h6{
+	margin: 0;
+	font-size: 15px;
+padding-left:25px;}
+
+h4{
+	font-size: 20px;
+	color: #51A00D;
+}
+
+h3 a:hover{
+	color: #F94245;
+}
