@@ -9,7 +9,7 @@ echo ' <div class="menu" align="center"> <a href="index.html" class="button">Hom
      <button class="btn" onclick="filterSelection(\'game\');selectmenu(4); putcontent(4);">Game Engine</button>
       <button class="btn" onclick="filterSelection(\'art\');selectmenu(5); putcontent(5);">Art</button>
 		<button class="btn" onclick="filterSelection(\'lighting\');selectmenu(6); putcontent(6);">Lighting</button>
-     <button class="btn" onclick="window.location=\'perproject/progress.php\';">In-Progress</button> </div>
+     <button class="btn" onclick="window.location=\'perproject/progress.php\';">Houdini</button> </div>
   </div>';
 ?>
 
