@@ -52,7 +52,7 @@ function putcontent(i)
 	content[0]= "All of them contain programming of one kind or the other, except for the art tab. <br>Primary languages used <b>Cg, C#, C++ and javascript.</b>";
 	content[1] = "Shaders are written for Unity and created using the shader-graph for Unity 2018 & above versions and coded as Surface Shaders using <i>Cg</i> for older versions.";
 	
-	content[2] = "Graphics<br><ol><li>Texture Mapping and modelling</li><li>Combine into One Mesh</li><li>Vectors and Normals with Shadow projection</li><li>Parenting and Translation</li><li>Gameobject Scripts and shadergraph Intro</li></ol>";
+	content[2] = "Graphics<br><ol><li>Texture Mapping and modelling</li><li>Combine into One Mesh</li><li>Vectors and Normals with Shadow projection</li><li>Parenting and Translation</li><li>Transform Intro and Shadergraph Intro</li></ol>";
 	
 	content[3] = "Virtual Reality Project: <i>An underwater experiance with 3 Orcas.</i><br>The experiance plays out as a game, with each orca teaching you something about being an orca.<br><br><b>My Contributiions</b><br>1. Worked in conceptualizing and setting up the Granny experiance.<br>2.Environment setup, lighting, and programming the interactions within the experiance.<br>3. Worked with the menu setup and intergration of the free swim components.<br>4. Researched, tested and incorporated the fins on the user to catch and eat fish and to simulate the fin swim motion using Unity's lastest Rigging and Animate packages.";
 	
