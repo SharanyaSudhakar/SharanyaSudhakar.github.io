@@ -1,6 +1,6 @@
 h4, h5, h3, h3 a {
   font-family: moret;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #D3A508;
   margin: 0;
@@ -54,12 +54,12 @@ h6{
 padding-left:25px;}
 
 h4{
-	font-size: 20px;
+	font-size: 22px;
 	color: #51A00D;
 }
 
 h5 {
-	font-size: 15px;
+	font-size: 20px;
 	color: #4158B7;
 }
 
