@@ -23,13 +23,18 @@ body {
 	min-height: 300px;
 }
 
-.content p{
+.content p, .content ul{
 	text-align: justify;
 	font-family: chaparral-pro, serif;
 	font-size: 20px;
 	font-weight: 400;
 	display: inline;
 	font-style: normal;
+}
+
+.content ul{
+	list-style-position: inside;
+	list-style-type: square;
 }
 
 .content b{
@@ -126,7 +131,7 @@ iframe{
 }
 
 .menu a:hover{
-	color:#5d99c6;
+	color:#4287f5;
 	-webkit-transition: color .3s,border .1s;
    -moz-transition: color .3s,border .1s;
      -o-transition: color .3s,border .1s;

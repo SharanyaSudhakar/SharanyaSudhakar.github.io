@@ -7,14 +7,14 @@
 <link href="../css/homepage.css" rel="stylesheet" type="text/css">
 <link href="../css/portfolioHome.css" rel="stylesheet" type="text/css">
 <link href="../css/project.css" rel="stylesheet" type="text/css">
-<script src = "../js/menuanime.js?6"></script> 
-<script src="../js/slideshow.js"></script> 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+<script src = "../js/menuanime.js?6"></script>
+<script src="../js/slideshow.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]--> 
+    <![endif]-->
 
 <!-- Custom fonts from Adobe Fonts-->
 <link rel="stylesheet" href="https://use.typekit.net/yvg7yal.css">
@@ -28,7 +28,7 @@
 	<div class="menu" align="center">
 		<a href="../portfolio.html" class="button">&#9679;&#9679;&#9679;Back</a> <a href="../index.html" class="button">Home</a> <a href="../portfolio.html" class="button">Portfolio</a> <a href="../about.html" class="button">About</a> <a href="../resume.html" class="button">Resume</a></div>
   <!-- end header-->
-	<div class="content"> 
+	<div class="content">
 		<!--content block -->
 <h2>Graphics - Transforms Intro Project</h2>
 
@@ -50,7 +50,7 @@ Project guide and specification coutesy - Morgan McGuire's <a href="http://graph
 <h4 class="sectionH5 colorH5">Hiccups</h4>
 		<p>The Cornell Box was a fairly straigt forward project. I had to fine tune the translation and scale for the cubes that make up the walls. I also spent sometime makeing sure the cubes inside where spaced and rotated just so.</p><br>
 		<img src="../images/cornellBox.JPG"/>
-		
+
 <h4 class="sectionH5">Scene 2</h4>
 		<p>The staircase in a spiral fashion was a harder endeavor than the Cornell box. This involved translation the next stair correctly and then rotating it. Simple rotating a long cube might look like a spiral staircase from an angle, but it doesn’t really create one. <br>
 <br>
@@ -59,17 +59,17 @@ This took a while to understand and figure out the correlation between the stair
 		<h4 class="sectionH5 colorH5">Hiccups</h4>
 		<p>The stiars were very straigt forward to solve in Unity. I used the previous stair as the parent, an rotated the next stair with respect to that. This created the nice curvature I was looking for. The implementation of this was not staright forward at all in G3D. In this engine, I couldn't create the parent / child relationship I had in Unity and hence had to work with the limitations I has. I ended up creating a simple staircase in this instance.</p><br>
 		<img src="../images/spiral.JPG"/>
-		
+
 <h4 class="sectionH5">Scene 3</h4>
 		<p>The final scene by far was the hardest to figure out in terms of idea. I finally ended up creating a Lego scene. The entire scene is created with cubes. They are each individual entities (girl, bench and dog). Each entity was then individually scaled, rotated and translated to match the scene.</p><br>
 		<h4 class="sectionH5 colorH5">Hiccups</h4>
 		<p>The most tricky part of this project was coming up with a complex enough idea that will look not only visually pleasing but also complex enough to challenge me. I picked a scene from a lefo set (thich is essentially made of trnasformed cubes) and created by project. I created lego pieces and build this digitally very similar to the actual building process.</p><br>
 		<img src="../images/complexTransform.JPG" />
-		
-		<h4 class="sectionH5 colorH5">Conclusion</h4>
+
+		<h4 class="sectionH5">Conclusion</h4>
 		<p>
-Of the three, Cornell Box was not an issue, I understood what was needed and executed them with out issue. Because I understood Unity better, I decided to implement the same projects in Unity as well. This was to help me understand the concepts in a platform I was comfortable with and to something I can relate with faster. The interesting scene and the stair case where also simple tasks in Unity. I translated the stairs by using the previous stair as the parent. This also meant I could curve the stair to any angle I wished. On the other hand, G3D proved to be a fickle friend. I tried really hard to bring this effect in G3D and failed miserably. I was able to create a single stair, but automating it meant knowing more about the backend code and learning where to place my function. I looked through all the code created as sample scenes and found something that could be implemented for my automation. Although the rotation happened with respect to the origin and not the previous stair iin G3D unlike Unity. This is still something I still haven't yet managed to solve to my satisfaction. To ensure the solution I have is not incorrect, I referred to the other project images and realized this was the only way in which the stairs were created for the G3D Engine in question and the project in play.</p>
-		
+Of the three, Cornell Box was not an issue, I understood what was needed and executed them with out issue. Because I understood Unity better, I decided to implement the same projects in Unity as well. This was to help me understand the concepts in a platform I was comfortable with and to something I can relate with faster. The interesting scene and the stair case where also simple tasks in Unity. I translated the stairs by using the previous stair as the parent. This also meant I could curve the stair to any angle I wished. On the other hand, G3D proved to be a fickle friend. I tried really hard to bring this effect in G3D and failed miserably. I was able to create a single stair, but automating it meant knowing more about the backend code and learning where to place my function. I looked through all the code created as sample scenes and found something that could be implemented for my automation. Although the rotation happened with respect to the origin and not the previous stair iin G3D unlike Unity. This is still something I still haven't yet managed to solve to my satisfaction. To ensure the solution I have is not incorrect, I referred to the other project images and realized this was the only way in which the stairs were created for the G3D Engine in question and the project in play.
+<br><br><br><br></p>
 	</div>
 	<!-- end content block -->
 	</div>

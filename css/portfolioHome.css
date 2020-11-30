@@ -15,13 +15,13 @@
 	cursor: pointer;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #535151;	
+	color: #535151;
 	border: none;
 	background: #fff;
 }
 
 .dropdown-content a:hover,
-.dropdown-content button:hover, 
+.dropdown-content button:hover,
 .dropdown-content button.select{
 	color: #F3EBEB;
 	background: #535151;
@@ -67,6 +67,14 @@
   color: #D3A508;
   margin: 0;
   padding: 10px 0;
+}
+
+a{
+	color:#4287f5;
+}
+
+a:hover{
+	color:#8441f0;
 }
 
 .grid {
@@ -199,4 +207,10 @@ figure.effect-bubba:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+}
+
+span.codeclass{
+	font-family:monospace;
+	font-size:16px;
+	color: #4287f5;
 }
