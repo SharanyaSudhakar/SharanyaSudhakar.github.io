@@ -54,7 +54,7 @@ body {
 /* Navigation */
 header {
 	width:100%;
-	height: 80px;
+	height: 100px;
 	text-align: center;
 	padding-top:20px;
 	padding-bottom: 20px;
@@ -70,7 +70,7 @@ header {
 @media screen and (min-width:501px)
 {
 	header{
-	font-size: 5.5vw;
+	font-size: 95px;
 	}
 	.menu a{
 		font-size: 25px;
