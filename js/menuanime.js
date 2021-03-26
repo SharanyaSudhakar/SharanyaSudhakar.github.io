@@ -50,9 +50,8 @@ function putcontent(i)
 {
 	var content = new Array(8);
 	content[0]= "All of them contain programming of one kind or the other, except for the art tab. <br>Primary languages used <b>Cg, C#, C++ and javascript.</b>";
-	content[1] = "Shaders are written for Unity and created using the shader-graph for Unity 2018 & above versions and coded as Surface Shaders using <i>Cg</i> for older versions.";
-
-	content[2] = "";
+	content[1] = "Research is primarily figuring out if new tech or a pipleline work involving changes and upgrades is working or will work. I did two major research project with Turn 10. <br><br>1.Simplygon  - to test if the auto lod system of simplygon will be compatible to use in LODing the cars in our game.<br>2.The second research project was coming up with  a pipeline upgrade for our crowd build system. This involved understanding and changing the existing pipleline which was a couple of versions ago and modifying it to take into acoount the new system of charcaters we will have for ingame";
+	content[2] = "Tools and Artists quality of life upgrades are an integral part of being a technical artist. As a techart at Turn10 I was integral in not only mainting existing tools for ongoing support, we were alsi tasked with creating new tools.<br><br>1.Maya to Max - One click - This tool essentially exports our maya modelled and rigged charcters into max for further work and get it ready for ingame and build processes.<br>2.Another independent tools project was to create an asset dump of our entire car system. Walking down every linked document, file, material, texture and shader information, exporting it for our external partners in a quickly usuable format along with a json documentation containing each dependency and its associated value.";
 
 	content[3] = "<h3>Procedural Modeling</h3>These are class projects from my CGMA procedural modelling class. All of them are created in a learning environment with some enhancements and tuneups which are personal.<br><br>All tuneups and variations are explained in the VARIATIONS section under each project. Some have my initial planning and ideas listed as these are yet to be completed.<br><h4>Software used: HOUDINI</h4>";
 
