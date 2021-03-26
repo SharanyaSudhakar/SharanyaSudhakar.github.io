@@ -37,10 +37,26 @@
 Create the underlying meshes' vertex and tricount for the following geometries: <ul><li> cube</li> <li>cylinder</li><li>terrain with a variable height field</li><li>a wineglass</li></ul>
 </p><br>
 <p>
+	The project progress was recorded as a Journal. <a href="../journal/meshes/journal.md.html"><h4 class="sectionH5">Journal LINK</h4></a></p>
+	<div class = "image_row">
+		<div class = "thirdImage_col">
+			<img src="../images/cylinderNcube.jpg" alt="Cube and Cylinder" style="width:100%"/>
+		</div>
+		<div class = "thirdImage_col">
+			<img src="../images/wineglass.jpg" alt="WineGlass" style="width:100%"/>
+		</div>
+		<div class = "thirdImage_col">
+			<img src="../images/terrain_w_heightfield.jpg" alt="Height Field" style="width:100%" />
+		</div>
+	</div>
+	<br>
+	<p>
 Project was implemented in: <b>G3D </b>(opensource)
 		<br>
 Project guide and specification coutesy - Morgan McGuire's <a href="http://https://graphicscodex.com/projects/meshes/index.html" >The Graphics Codex : Meshes</a>
 	</p>
+
+<br>
 <br>
 <br>
 <h4 class="sectionH5">Algorithm Specification</h4>
@@ -68,11 +84,13 @@ saved out to file and used. Similar to this function, the WineGlass class also h
  function that has a similar purpose but writes out the radius and height informtion.</p>
 
 <h4 class="sectionH5">Time Analysis</h4>
-		<p>The is a <b>O(n)</b> time algorithm as for every mesh the function is run only once. Within each algorithm the reading and writting time of the height field depends on the resolution of the xz-axis and the number of rows and colums. This makes the terrain <b>O(n2)</b></p>
+		<p>This is a <b>O(n)</b> time algorithm as for every mesh the function is run only once. Within each algorithm the reading and writting time of the height field depends on the resolution of the xz-axis and the number of rows and colums. This makes the terrain <b>O(n2)</b></p>
 
-		<h4 class="sectionH5">Journal</h4>
+		<h4 class="sectionH5"> <a href="../journal/meshes/journal.md.html">Journal</a></h4>
 		<p>
 			The project progress was recorded and can be seen <a href="../journal/meshes/journal.md.html">here</a>
+
+		<br><br>
 </p>
 	</div>
 	<!-- end content block -->

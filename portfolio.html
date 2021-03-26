@@ -6,6 +6,7 @@
 <title>Portfolio Page- Sharanya Sudhakar</title>
 <link href="css/homepage.css" rel="stylesheet" type="text/css">
 <link href="css/portfolioHome.css" rel="stylesheet" type="text/css">
+<link href="css/lastAddedCommonStyles.css" rel="stylesheet" type="text/css">
 <script src = "js/menuanime.js?4"></script>
 	<script src="js/slideshow.js"></script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,7 +29,7 @@
       <button class="btn select" onclick="filterSelection('all');selectmenu(0); putcontent(0);">ALL</button>
       <button class="btn" onclick="filterSelection('research');selectmenu(0); putcontent(0);">Research</button>
 			<button class="btn" onclick="filterSelection('tools');selectmenu(0); putcontent(0); ">Tools</button>
-			<button class="btn" onclick="filterSelection('proc_model');selectmenu(0); putcontent(0); ">Procedural Modeling</button>
+			<button class="btn" onclick="filterSelection('proc_model');selectmenu(3); putcontent(3); ">Procedural Modeling</button>
 			<button class="btn" onclick="filterSelection('proc_vfx');selectmenu(0); putcontent(0); ">VFX</button>
 			<button class="btn" onclick="filterSelection('shader_graphics');selectmenu(5); putcontent(5); ">Shaders & Graphics</button>
       		<button class="btn" onclick="window.location='perproject/lighting.html';">Lighting</button>
@@ -44,7 +45,17 @@
 	<script>putcontent(0);</script></div>
   <div class="grid row">
     <!--shaders-->
-    <figure class="effect-bubba column shader_graphics show"> <img src="images/honeylight-concept.jpg" alt="Honeylight"/>
+		<figure class="effect-bubba column proc_model show"> <img src="images\cactus-full.PNG" alt="Honeylight"/>
+			<figcaption onclick ="window.location='perproject/proce_model_cactus.html';">
+				<p>Procedural Modeling - Cactus & Succulents</p>
+			</figcaption>
+		</figure>
+		<figure class="effect-bubba column proc_model show"> <img src="images\proceModel\chand_0.JPG" alt="Honeylight"/>
+			<figcaption onclick ="window.location='perproject/proce_model_chandelier.html';">
+				<p>Procedural Modeling - Chandelier</p>
+			</figcaption>
+	</figure>
+		<figure class="effect-bubba column shader_graphics show"> <img src="images/honeylight-concept.jpg" alt="Honeylight"/>
       <figcaption onclick ="window.location='perproject/shader_nector.html';">
         <p>Honey Shader</p>
       </figcaption>
@@ -82,6 +93,11 @@
         <p>Graphics - Combine into ONE Mesh</p>
       </figcaption>
 	  </figure>
+		<figure class="effect-bubba column shader_graphics show"> <img src="images\wineglass.jpg" alt="Transition Shader"/>
+			<figcaption onclick = "window.location='perproject/graphics_codex2.html';">
+				<p>Graphics - 3D Geometry Meshes & Terrain HeightField Generator</p>
+			</figcaption>
+		</figure>
     <figure class="effect-bubba column shader_graphics show"> <img src="videos/mp3.jpg" alt="MP3"/>
       <figcaption onclick ="window.location='perproject/graphics_mp3.html';">
         <p>Graphics - Vectors and Normals with shadow projection</p>
@@ -90,6 +106,11 @@
     <figure class="effect-bubba column shader_graphics show"> <img src="videos/mp2.jpg" style="align-content: flex-end;" alt="Texture and Modeling"/>
       <figcaption onclick ="window.location='perproject/graphics_mp2.html';">
         <p>Graphics - Parenting and Translation</p>
+      </figcaption>
+    </figure>
+		<figure class="effect-bubba column shader_graphics show"> <img src="images\complexTransform.JPG" alt="Transition Shader"/>
+      <figcaption onclick = "window.location='perproject/graphics_codex1.html';">
+        <p>Graphics - Single Cube Transform</p>
       </figcaption>
     </figure>
    <!--<figure class="effect-bubba column graphics show"> <img src="videos/mp1.jpg" alt="Vectors and Normals"/>

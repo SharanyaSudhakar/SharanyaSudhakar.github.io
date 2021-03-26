@@ -48,6 +48,25 @@ h2{
   clear: both;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.image_col {
+  float: center;
+  width: 100%;
+  padding: 25px;
+}
+
+.thirdImage_col{
+  float: left;
+  width: 43%;
+  padding: 10px;
+}
+
+.image_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 h6{
 	margin: 0;
 	font-size: 15px;
