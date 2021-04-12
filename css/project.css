@@ -51,7 +51,7 @@ h2{
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .image_col {
   float: center;
-  width: 100%;
+  width: 90%;
   padding: 10px 0;
 }
 
