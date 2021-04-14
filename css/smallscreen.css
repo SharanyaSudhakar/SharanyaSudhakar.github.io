@@ -1,0 +1,67 @@
+@media screen and (min-width:651px)
+{
+	header{
+	font-size: 95px;
+	}
+	.menu a{
+		font-size: 25px;
+	}
+	.content{
+		width: 800px;
+	}
+
+	.dropdown-content button{
+		font-family: Rift, sans-serif;
+		font-weight: 40;
+		padding: 0 4px;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+		cursor: pointer;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #535151;
+		border: none;
+		background: #fff;
+	}
+
+	.dropdown-content {
+		margin: 0px 100px;
+	  position: relative;
+	}
+
+}
+@media screen and (max-width:650px)
+{
+	header{
+		font-size: 45px;
+	}
+	.menu a{
+		font-size: 20px;
+	}
+	.content{
+		width: 450px;
+	}
+
+	.dropdown-content button{
+		font-family: Rift, sans-serif;
+		font-weight: 20;
+		padding: 0 1px;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 12px;
+		text-decoration: none;
+		cursor: pointer;
+		margin-left: 5px;
+		margin-right: 5px;
+		color: #535151;
+		border: none;
+		background: #fff;
+	}
+
+	.dropdown-content {
+		margin: 0px 20px;
+	  position: relative;
+	}
+}
