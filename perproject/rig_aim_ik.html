@@ -46,9 +46,9 @@ Add only AIM constraints for the Cardan Joint</p>
 How to use only the aim contraint to make the Cardan Joint work?</p>
 </div>
 
-<div class="columnv3 rightcolum"><img src="../images/blightblue_web.jpg" width="300px" /></div></div>
+<div class="columnv3 rightcolum"><img src="..\images\cgma\chain0ik.JPG" width="300px" /></div></div>
 
-<h4>How I tackled the problem : IK Spline</h4>
+<h3>How I tackled the problem : IK Spline</h3>
 <p>For the IK spline System, I used clustors to create points with Transform. Then a Point contraint was used with locators to achieve the
 	user controlled system you currently see.
 <br>
@@ -56,10 +56,11 @@ How to use only the aim contraint to make the Cardan Joint work?</p>
 
 <h4>Final Solution</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nnJBZQREVQI?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><h3>How I tackled the problem : AIM Contraint</h3>
 <p>The aim constraint has two requirements. The Aim Vector and the Up Vector. Aligning the Aim Vector is the easiest problem.
 	Aligning the up vector has three variation in a maya scene. It can point to the scene up (y axis) or the object up (the up vector of the obj)
 	or it can align with object rotation. Typically this is handled using a second locator. But for this problem, we were given only one locator.
-<br>
+<br><br>
 	The base of the joint works only in one direction, the z direction. This was the easiest to solve.
 	But the top of the joint works in two directions. For a long time, I used only the x and z-axis for this which did not work right.
 	The reason being, the x and z where the axis of the lcoator and the direction the locator moves in, not the joint.
