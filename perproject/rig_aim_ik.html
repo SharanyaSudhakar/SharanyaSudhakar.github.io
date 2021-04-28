@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio Page- Sharanya Sudhakar</title>
+<link href="../css/homepage.css" rel="stylesheet" type="text/css">
+<link href="../css/portfolioHome.css" rel="stylesheet" type="text/css">
+<link href="../css/project.css" rel="stylesheet" type="text/css">
+<script src = "../js/menuanime.js?6"></script>
+<script src="../js/slideshow.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Custom fonts from Adobe Fonts-->
+<link rel="stylesheet" href="https://use.typekit.net/yvg7yal.css">
+<link href="../css/imagelightbox.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="tk-hobeaux">Sharanya Sudhakar</header><!-- main container-->
+<div class="container">	<div class="menu" align="center">
+
+		<a href="../index.html" class="button">Home</a>
+		<a href="../portfolio.html" class="button">Portfolio</a>
+		<a href="../about.html" class="button">About</a>
+		<a href="../resume.html" class="button">Resume</a>
+
+		<br><br>
+						<div class="tooltip">	<a href="proce_model_cactus.html" class="tooltip" class="button">Next&#9755;</a>
+						<span class=" tooltiptext tooltiptext_right">Procedural Modeling - Cactus</span></div>
+	</div><!-- end header--><div class="content"><br>
+<h2>Rigging - Basics</h2>
+<div class="rowv3">
+
+<div class="columnv3 leftcolmn">
+<p>IK spline & AIM Constraints</p><br><br>
+<h4>Requirements</h4>
+<p>Create a Spline Setup for the Chain Links.<br>
+Add only AIM constraints for the Cardan Joint</p>
+<h4>Challenges</h4>
+<p>The curve in the IK spline setup has to be connected to the locators, so they can be manipulated outside the system.<br>
+How to use only the aim contraint to make the Cardan Joint work?</p>
+</div>
+
+<div class="columnv3 rightcolum"><img src="../images/blightblue_web.jpg" width="300px" /></div></div>
+
+<h4>How I tackled the problem : IK Spline</h4>
+<p>For the IK spline System, I used clustors to create points with Transform. Then a Point contraint was used with locators to achieve the
+	user controlled system you currently see.
+<br>
+</p>
+
+<h4>Final Solution</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nnJBZQREVQI?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>The aim constraint has two requirements. The Aim Vector and the Up Vector. Aligning the Aim Vector is the easiest problem.
+	Aligning the up vector has three variation in a maya scene. It can point to the scene up (y axis) or the object up (the up vector of the obj)
+	or it can align with object rotation. Typically this is handled using a second locator. But for this problem, we were given only one locator.
+<br>
+	The base of the joint works only in one direction, the z direction. This was the easiest to solve.
+	But the top of the joint works in two directions. For a long time, I used only the x and z-axis for this which did not work right.
+	The reason being, the x and z where the axis of the lcoator and the direction the locator moves in, not the joint.
+	The joint moves in y and z. Once I fixed this directional problem, my joint worked in sync. Voila!
+<br>
+</p>
+<h4>Final Solution</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/ZLACW1x70MM?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<footer><p>sharanya.design@gmail.com</p>  <p>425 588 6208</p></footer></body>
+</html>

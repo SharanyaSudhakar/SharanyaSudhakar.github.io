@@ -30,6 +30,7 @@
       <button class="btn select" onclick="filterSelection('all');selectmenu(0); putcontent(0);">ALL</button>
       <!--<button class="btn" onclick="filterSelection('research');selectmenu(1); putcontent(1);">Research</button>
 			<button class="btn" onclick="filterSelection('tools');selectmenu(2); putcontent(2); ">Tools</button>-->
+			<button class="btn" onclick="filterSelection('rig');selectmenu(2); putcontent(2); ">Rigging</button>
 			<button class="btn" onclick="filterSelection('proc_model');selectmenu(3); putcontent(3); ">Procedural Modeling</button>
 			<button class="btn" onclick="filterSelection('proc_vfx');selectmenu(4); putcontent(4); ">VFX</button>
 			<button class="btn" onclick="filterSelection('shader_graphics');selectmenu(5); putcontent(5); ">Shaders & Graphics</button>
@@ -45,7 +46,13 @@
 	  <!--content that appears here is written in menuanime.js -->
 	<script>putcontent(0);</script></div>
   <div class="grid row">
-    <!--shaders-->
+		<!--rigging-->
+		<figure class="effect-bubba column rig show"> <img src="images\cgma\join_w_aim.JPG" alt="cardan_joint"/>
+			<figcaption onclick ="window.location='perproject/rig_aim_ik.html';">
+				<p>Maya Rigging - Aim Contraint & IK Spline</p>
+			</figcaption>
+		</figure>
+    <!--proceModel-->
 		<figure class="effect-bubba column proc_model show"> <img src="images\cactus-full.PNG" alt="Cactus"/>
 			<figcaption onclick ="window.location='perproject/proce_model_cactus.html';">
 				<p>HOUDINI Procedural Modeling - Cactus & Succulents</p>
